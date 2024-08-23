@@ -42,6 +42,9 @@ function PaginaGastos() {
     return (
         <div>
             <BarraNavegacao />
+            <div>
+                Vagner trabalhou aqui
+            </div>
             {listaDeGastos.map((objeto) => (
                 <CardGasto
                     descricao={objeto.descricao}
